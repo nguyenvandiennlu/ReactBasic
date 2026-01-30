@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 5: IDOM & Events</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            padding: 50px;
+            transition: background-color 0.5s;
+        }
+        .container {
+            margin-top: 50px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            display: inline-block;
+            background: white;
+            border-radius: 8px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        #counter {
+            font-size: 40px;
+            font-weight: bold;
+            display: block;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bài tập DOM & Events</h1>
+
+    <!-- Yêu cầu 1 -->
+    <button id="btn-change-color">Đổi màu nền ngẫu nhiên</button>
+
+    <hr>
+
+    <!-- Yêu cầu 2 -->
+    <div class="container">
+        <h2>Counter App</h2>
+        <button id="btn-decrease">Giảm (-)</button>
+        <span id="counter">0</span>
+        <button id="btn-increase">Tăng (+)</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
