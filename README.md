@@ -5,6 +5,7 @@
 Chào mừng bạn đến với kho tài liệu thực hành **JavaScript & ReactJS**. Đây là lộ trình được thiết kế bài bản, đi từ những khái niệm cốt lõi nhất của ngôn ngữ JavaScript cho đến việc xây dựng các ứng dụng React hiện đại.
 
 Tài liệu này phù hợp cho:
+
 - Người mới bắt đầu học lập trình Web.
 - Developer muốn ôn tập lại kiến thức JS nền tảng trước khi học Framework.
 - Ai đang "mông lung" giữa rừng kiến thức ReactJS.
@@ -16,18 +17,18 @@ Tài liệu này phù hợp cho:
 Khoá học được chia thành **6 Phần** chính, mỗi phần chứa các bài tập thực hành cụ thể kèm lời giải chi tiết.
 
 ### 🟢 Giai đoạn 1: Nền Tảng JavaScript (Vanilla JS)
+
 Làm chủ ngôn ngữ lập trình trước khi học công cụ.
 
 - **[Phần 1: Nhập Môn & Tư Duy Lập Trình](./Part1_Basic)**
   - Hiểu về Biến, Kiểu dữ liệu.
   - Câu lệnh điều kiện (If/Else) & Vòng lặp (Loops).
   - Hàm (Functions) - Đơn vị xử lý cơ bản.
-  
 - **[Phần 2: JavaScript Trung Cấp](./Part2_Intermediate)**
   - Tương tác với giao diện Web (DOM & Events).
   - Làm việc với dữ liệu phức tạp (Mảng, Object).
   - **ES6+ Modern Syntax**: Arrow function, Template literals...
-  - **Array Methods**: Map, Filter, Reduce - *Chìa khóa của React*.
+  - **Array Methods**: Map, Filter, Reduce - _Chìa khóa của React_.
 
 - **[Phần 3: JavaScript Nâng Cao & Bất Đồng Bộ](./Part3_Advanced)**
   - Xử lý tác vụ tốn thời gian (Async/Await, Promise).
@@ -35,6 +36,7 @@ Làm chủ ngôn ngữ lập trình trước khi học công cụ.
   - **Project**: To-Do List (Lưu trữ dữ liệu với LocalStorage).
 
 ### 🔵 Giai đoạn 2: ReactJS Ecosystem
+
 Chuyển đổi tư duy từ "Imperative" (Dòng lệnh) sang "Declarative" (Khai báo).
 
 - **[Phần 4: Pre-React](./Part4_PreReact)**
@@ -60,20 +62,22 @@ Chuyển đổi tư duy từ "Imperative" (Dòng lệnh) sang "Declarative" (Kha
 
 1.  **[Node.js](https://nodejs.org/)** (Khuyên dùng bản LTS): Môi trường chạy JavaScript.
 2.  **[VS Code](https://code.visualstudio.com/)**: Trình soạn thảo code phổ biến nhất.
-    *   *Extension khuyên dùng*: ESLint, Prettier, VSCode-Icons.
+    - _Extension khuyên dùng_: ESLint, Prettier, VSCode-Icons.
 
 ## 🏃 Hướng Dẫn Học
 
 1.  Clone repository này về máy:
     ```bash
-    git clone https://github.com/your-username/js-react-course.git
+    git clone https://github.com/nguyenvandiennlu/ReactBasic.git
     ```
 2.  Đi vào từng thư mục bài tập (ví dụ `Part1_Basic/Exercise1_Variables`).
 3.  Đọc file `README.md` trong từng bài để hiểu yêu cầu.
 4.  Thử tự giải bài tập, sau đó so sánh với file `solution.js` (hoặc `Solution.jsx`).
 
 ## 🤝 Đóng Góp
+
 Mọi ý kiến đóng góp, phát hiện lỗi sai hoặc đề xuất bài tập mới đều được hoan nghênh! Hãy tạo Issue hoặc Pull Request để cùng nhau hoàn thiện kho tài liệu này.
 
 ---
-*Happy Coding! 🔥*
+
+_Happy Coding! 🔥_
